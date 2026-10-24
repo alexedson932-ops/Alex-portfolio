@@ -480,6 +480,17 @@ header {
 }
 
 
+/* Technology Logos */
+
+.technology-logo {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+
+
 /* Technology Labels */
 
 .technology span {
