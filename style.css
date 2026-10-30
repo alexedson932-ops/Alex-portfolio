@@ -425,7 +425,7 @@ header {
     padding: 6px 10px;
     border-radius: 5px;
 }
-```css
+
 /* Technology Grid */
 
 .technology-grid {
@@ -549,8 +549,6 @@ header {
     }
 
 }
-```
-
 
 /* Tablet */
 
@@ -1644,4 +1642,48 @@ footer {
         right: 15px;
         font-size: 38px;
     }
+}
+
+
+/* Software-first portfolio layout */
+.skills-group-title {
+    max-width: 1100px;
+    margin: 0 auto 18px;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-group-title span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #38bdf8;
+}
+
+.skills-group-title.additional {
+    margin-top: 50px;
+    color: #cbd5e1;
+}
+
+.skills-group-title.additional span {
+    color: #94a3b8;
+}
+
+.skill-card-main {
+    border-color: rgba(56, 189, 248, 0.45);
+}
+
+.skills-secondary .skill-card {
+    opacity: 0.92;
+}
+
+.projects-section .skills-group-title {
+    margin-bottom: 22px;
+}
+
+.projects-section .projects-list + .skills-group-title {
+    margin-top: 50px;
 }
