@@ -2403,3 +2403,17 @@ footer {
 .home-page .btn { font-weight: 500; letter-spacing: 0.5px; }
 .home-page .project-item-number { font-weight: 300; }
 .home-page .intro { font-weight: 500; }
+
+/*  Typing animation font */
+.home-page .typing-line,
+.home-page .typing-line #typed,
+.home-page .typing-line .typing-prefix {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.home-page .typing-line .typing-prefix {
+  font-weight: 500;
+}
