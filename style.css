@@ -2417,3 +2417,12 @@ footer {
 .home-page .typing-line .typing-prefix {
   font-weight: 500;
 }
+
+/*  Extra orbit icons: .NET and Laravel  */
+.chip-5 { top: 30%; right: -14%; animation-delay: 1.8s; }
+.chip-6 { top: 28%; left: -14%;  animation-delay: 3s; }
+
+@media (max-width: 850px) {
+  .chip-5 { right: -2%; }
+  .chip-6 { left: -2%; }
+}
