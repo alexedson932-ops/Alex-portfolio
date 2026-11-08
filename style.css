@@ -2426,3 +2426,53 @@ footer {
   .chip-5 { right: -2%; }
   .chip-6 { left: -2%; }
 }
+
+/* ===== Project pages: modern look ===== */
+.project-page .project-page-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(6, 9, 19, 0.55);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+}
+.project-page .project-details-page { position: relative; z-index: 1; }
+
+.project-page .project-details-hero h1 {
+  background: linear-gradient(135deg, #ffffff 30%, #a5d8ff);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.project-page .project-details-hero h1 .highlight {
+  background: linear-gradient(100deg, #38bdf8, #a78bfa, #f472b6);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.project-page .project-feature,
+.project-page .project-tech-item {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+.project-page .project-feature:hover,
+.project-page .project-tech-item:hover {
+  transform: translateY(-6px);
+  border-color: rgba(56, 189, 248, 0.55);
+}
+
+.project-page .project-section-number,
+.project-page .feature-icon {
+  background: linear-gradient(135deg, #38bdf8, #a78bfa);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.project-page .back-projects-button {
+  background: linear-gradient(135deg, #38bdf8, #a78bfa);
+  color: #06101f;
+  box-shadow: 0 8px 28px rgba(56, 189, 248, 0.35);
+}
+
+.project-page .project-page-footer {
+  background: rgba(6, 9, 19, 0.6);
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
