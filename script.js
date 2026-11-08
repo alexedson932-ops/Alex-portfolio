@@ -1,4 +1,4 @@
-// Display the current year in the footer (if the footer exists).
+// Display the current year in the footer .
 const yearElement = document.getElementById("year");
 if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
@@ -46,13 +46,10 @@ if (imageModal && modalImage && closeModal) {
 }
 
 
-/* =====================================================
-   Modern homepage effects (all safely skipped on pages
-   that don't have the needed elements)
-   ===================================================== */
+
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-// ---------- Animated network background ----------
+//  Animated network background 
 const canvas = document.getElementById("bg-canvas");
 if (canvas) {
     const ctx = canvas.getContext("2d");
@@ -140,14 +137,15 @@ if (canvas) {
     });
 }
 
-// ---------- Typing effect in the hero ----------
+//  Typing effect in the hero 
 const typedElement = document.getElementById("typed");
 if (typedElement) {
     const phrases = [
-        "Building mobile apps with Flutter",
-        "Creating web solutions with PHP & JavaScript",
-        "Turning business problems into software",
-        "Studying Data Science, powered by Power BI"
+        "Building practical software systerms",
+        "Engineering solutions with purpose and impact",
+        "Turning real word problem into software solutions",
+        "Combining software development with analytical thinking",
+        "network administrator"
     ];
 
     if (reduceMotion) {
