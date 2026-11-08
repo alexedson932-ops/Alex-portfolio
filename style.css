@@ -2376,3 +2376,30 @@ footer {
     transition: none;
   }
 }
+
+
+/* ===== Thin & upright fonts (Outfit) ===== */
+.home-page {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.home-page h1,
+.home-page h2,
+.home-page h3,
+.home-page .logo,
+.home-page .intro,
+.home-page .typing-line,
+.home-page .project-item-number {
+  font-family: "Outfit", sans-serif;
+}
+
+.home-page .hero h1 { font-weight: 300; letter-spacing: 0; }
+.home-page .hero h2 { font-weight: 300; }
+.home-page .section-title { font-weight: 300; letter-spacing: 1px; }
+.home-page h3 { font-weight: 400; }
+.home-page .logo { font-weight: 500; }
+.home-page .btn { font-weight: 500; letter-spacing: 0.5px; }
+.home-page .project-item-number { font-weight: 300; }
+.home-page .intro { font-weight: 500; }
